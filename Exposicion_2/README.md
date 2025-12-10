@@ -1,4 +1,5 @@
-README – Predicción de Riesgo Crítico en Estudiantes mediante Modelos de Machine Learning
+📘 Predicción de Riesgo Crítico en Estudiantes mediante Modelos de Machine Learning
+Exposición #2 – Taller de Programación (UBA)
 📌 Descripción del Proyecto
 
 Este repositorio contiene el código, resultados y visualizaciones correspondientes a la Exposición #2 del Taller de Programación (UBA).
@@ -38,7 +39,7 @@ Naive Bayes (CategoricalNB)
 
 Regresión Logística (Logit)
 
-Cada modelo fue evaluado con las métricas:
+Cada modelo fue evaluado con:
 
 Accuracy
 
@@ -52,16 +53,15 @@ Matriz de confusión (TP, FP, TN, FN)
 
 🏆 Modelo Ganador: Naive Bayes
 
-Naive Bayes fue seleccionado por:
+Naive Bayes fue seleccionado porque:
 
-Obtener el mayor Recall (Sensibilidad)
+Obtuvo el mayor Recall (0.604)
 
-Presentar la menor cantidad de Falsos Negativos (FN)
+Presentó la menor cantidad de Falsos Negativos (FN = 3009)
 
-Cumplir el objetivo central del proyecto: maximizar la detección de estudiantes en riesgo crítico
+Cumple el objetivo central del proyecto: maximizar la detección de estudiantes en riesgo crítico
 
-Resumen de métricas del modelo ganador:
-
+Resumen de métricas del modelo ganador
 Métrica	Valor
 Accuracy	~0.615
 Precision	~0.562
@@ -71,15 +71,17 @@ Falsos Negativos (FN)	3009
 🔥 Resultados Visuales Incluidos
 ✔ Matriz de Confusión rotulada (TN, FP, FN, TP)
 
-La matriz incluye etiquetas explícitas para facilitar la interpretación del impacto de los falsos negativos.
+Facilita la interpretación del impacto de los falsos negativos.
 
 ✔ Gráfico Top 10 de Variables Importantes
 
-A partir de Permutation Importance, se identifican las variables que más influyen en la predicción:
+Derivado de Permutation Importance.
 
-Sexo (femenino/masculino)
+Las variables más relevantes incluyen:
 
-Actividad física (especialmente “Nunca”)
+Sexo (Femenino/Masculino)
+
+Actividad física (“Nunca”)
 
 Edad y curso escolar
 
@@ -89,25 +91,21 @@ Hábitos alimentarios
 
 El modelo identifica como predictores relevantes:
 
-Género: diferencias conductuales y sociales entre grupos.
+Género: patrones diferenciales entre grupos.
 
-Inactividad física: fuertemente asociada al riesgo.
+Inactividad física: indicador fuerte de vulnerabilidad.
 
-Edad y escolaridad: reflejan etapas vulnerables de la adolescencia.
+Edad y escolaridad: etapas críticas de la adolescencia.
 
-Hábitos alimentarios: indicadores indirectos del contexto familiar.
+Hábitos alimentarios: reflejan organización y entorno familiar.
 
-Estas variables no implican causalidad, sino que funcionan como señales indirectas del entorno psicosocial del estudiante.
+Estas variables funcionan como indicadores estructurales del contexto psicosocial del estudiante.
 
-📁 /src
-    ├── preprocesamiento.ipynb
-    ├── modelos.ipynb
-    ├── visualizaciones.ipynb
-📁 /figuras
-    ├── matriz_confusion_nb.png
-    ├── top10_importancia_nb.png
-📁 /data
-    ├── emse_preprocesado.csv
+📁 Estructura del Repositorio
+📁 Datos/
+📁 Docs/
+📁 Figuras/
+📁 Scripts/
 README.md
 
 🧪 Requisitos
@@ -120,9 +118,9 @@ pip install numpy pandas scikit-learn seaborn matplotlib
 
 Clonar el repositorio
 
-Abrir el notebook principal en Jupyter o Colab
+Abrir los notebooks en Jupyter o Google Colab
 
-Ejecutar las celdas paso a paso:
+Ejecutar las celdas en orden:
 
 Preprocesamiento
 
@@ -132,20 +130,19 @@ Comparación
 
 Selección del modelo ganador
 
-Generación de visualizaciones
+Visualizaciones
 
 📘 Conclusiones
 
-Naive Bayes demostró ser el modelo más adecuado para el objetivo del proyecto.
+Naive Bayes fue el modelo más adecuado para el objetivo de minimizar falsos negativos.
 
-Su fortaleza radica en la capacidad de identificar efectivamente estudiantes en riesgo.
+Su simplicidad no impide un buen desempeño en la detección de riesgo.
 
-A pesar de su simplicidad, muestra un desempeño competitivo y fácilmente interpretable.
+Los resultados permiten identificar patrones destacados para futuros análisis y políticas educativas/sanitarias.
 
-La importancia de variables revela patrones relevantes para futuras intervenciones educativas y de salud.
+👥 Autores
 
-📎 Contacto / Créditos
-
-Trabajo realizado para la Exposición 2 – Taller de Programación (UBA).
-Autor: Christian Campos, Julián Delgadillo Marín, Alejandro Alcocer
-Año: 2025-IV
+Christian Campos
+Julián Delgadillo Marín
+Alejandro Alcocer
+Año: 2025 — Cuatrimestre IV

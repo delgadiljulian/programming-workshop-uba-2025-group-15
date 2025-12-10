@@ -1,11 +1,11 @@
-📘 Predicción de Riesgo Crítico en Estudiantes mediante Modelos de Machine Learning
+# 📘 Predicción de Riesgo Crítico en Estudiantes mediante Modelos de Machine Learning
 Exposición #2 – Taller de Programación (UBA)
-📌 Descripción del Proyecto
+# 📌 Descripción del Proyecto
 
 Este repositorio contiene el código, resultados y visualizaciones correspondientes a la Exposición #2 del Taller de Programación (UBA).
 El objetivo principal del trabajo es identificar estudiantes en riesgo crítico a partir de datos de la Encuesta Mundial de Salud Escolar (EMSE), utilizando técnicas de Machine Learning y priorizando la detección temprana mediante la reducción de falsos negativos (FN).
 
-🎯 Objetivo del Análisis
+# 🎯 Objetivo del Análisis
 
 Entrenar distintos modelos supervisados de clasificación.
 
@@ -17,7 +17,7 @@ Interpretar los factores asociados al riesgo mediante Permutation Importance.
 
 Visualizar resultados clave mediante matrices de confusión y gráficos de importancia.
 
-📊 Dataset
+# 📊 Dataset
 
 Se utiliza un subconjunto preprocesado de la Encuesta Mundial de Salud Escolar (EMSE) con variables:
 
@@ -29,7 +29,7 @@ Escolares y familiares
 
 Variables trivialmente asociadas al riesgo (alcohol, tabaco, lesiones) fueron excluidas para evitar data leakage.
 
-🤖 Modelos Evaluados
+# 🤖 Modelos Evaluados
 
 Se entrenaron y evaluaron tres modelos principales:
 
@@ -51,7 +51,7 @@ F1-Score
 
 Matriz de confusión (TP, FP, TN, FN)
 
-🏆 Modelo Ganador: Naive Bayes
+# 🏆 Modelo Ganador: Naive Bayes
 
 Naive Bayes fue seleccionado porque:
 
@@ -68,7 +68,7 @@ Precision	~0.562
 Recall (Sensibilidad)	0.604
 F1-Score	~0.583
 Falsos Negativos (FN)	3009
-🔥 Resultados Visuales Incluidos
+# 🔥 Resultados Visuales Incluidos
 ✔ Matriz de Confusión rotulada (TN, FP, FN, TP)
 
 Facilita la interpretación del impacto de los falsos negativos.
@@ -87,7 +87,7 @@ Edad y curso escolar
 
 Hábitos alimentarios
 
-🧠 Interpretación de Importancia de Variables
+# 🧠 Interpretación de Importancia de Variables
 
 El modelo identifica como predictores relevantes:
 
@@ -108,13 +108,13 @@ Estas variables funcionan como indicadores estructurales del contexto psicosocia
 📁 Scripts/
 README.md
 
-🧪 Requisitos
+# 🧪 Requisitos
 
 Instalación de dependencias:
 
 pip install numpy pandas scikit-learn seaborn matplotlib
 
-🚀 Cómo Ejecutar el Proyecto
+# 🚀 Cómo Ejecutar el Proyecto
 
 Clonar el repositorio
 
@@ -132,7 +132,7 @@ Selección del modelo ganador
 
 Visualizaciones
 
-📘 Conclusiones
+# 📘 Conclusiones
 
 Naive Bayes fue el modelo más adecuado para el objetivo de minimizar falsos negativos.
 
@@ -140,7 +140,7 @@ Su simplicidad no impide un buen desempeño en la detección de riesgo.
 
 Los resultados permiten identificar patrones destacados para futuros análisis y políticas educativas/sanitarias.
 
-👥 Autores
+# 👥 Autores
 
 Christian Campos
 Julián Delgadillo Marín

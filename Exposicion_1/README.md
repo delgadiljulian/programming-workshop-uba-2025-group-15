@@ -1,95 +1,86 @@
-# 📊 Exposición 1 – Análisis Exploratorio de la EMSE 2018
+# Presentation 1 - Exploratory Analysis of EMSE 2018
 
-**Curso:** Taller de Programación  
-**Carrera:** Maestría en Economía Aplicada – Universidad de Buenos Aires (UBA)  
-**Grupo 15:** Julián Delgadillo Marín, Alejandro Alcocer, Christian Campos  
-**Fecha:** 5 de noviembre de 2025
-
----
-
-##  Descripción general
-
-Esta exposición corresponde a la **Primera Exposición Grupal** del Taller de Programación.  
-El trabajo consistió en realizar un **análisis exploratorio de la Encuesta Mundial de Salud Escolar (EMSE 2018)**, enfocándose en los hábitos saludables y conductas de riesgo en adolescentes escolarizados de Argentina.
-
-La presentación se elaboró en formato **Beamer (LaTeX)** e incluyó procesamiento de datos, visualización y generación de hipótesis de investigación para su desarrollo posterior en la **Aplicación Final** del curso.
+**Course:** Programming Workshop  
+**Program:** Master's Program in Applied Economics, University of Buenos Aires  
+**Group 15:** Julián Delgadillo Marín, Alejandro Alcocer, Christian Campos  
+**Date:** November 5, 2025
 
 ---
 
-##  Estructura de la carpeta
+## Overview
 
+This folder contains the materials for the first group presentation in the Programming
+Workshop course.
+
+The project developed an exploratory analysis of the **Global School-based Student
+Health Survey (EMSE 2018)**, focusing on healthy habits and risk behaviors among
+school-aged adolescents in Argentina.
+
+The presentation was prepared in **Beamer (LaTeX)** and included data processing,
+visualization, and the development of research hypotheses for the final course
+application.
+
+---
+
+## Folder Structure
+
+```text
 Exposicion_1/
-│
-├── Datos/ # Enlace a la fuente oficial del dataset
-│ └── README.md # Explica la fuente y descarga de EMSE 2018
-│
-├── Graficos/ # Gráficos en formato .png usados en la presentación
-│
-├── Presentacion/ # Archivos .tex y .pdf (Beamer)
-│
-├── Codigo/ # Scripts auxiliares de limpieza y visualización (opcional)
-│
-└── README.md # Este archivo de documentación
-
+|
+|-- Datos/          # Dataset source and download notes
+|-- Graficos/       # PNG figures used in the presentation
+|-- Presentacion/   # Beamer source and PDF files
+|-- Codigo/         # Auxiliary cleaning and visualization scripts
+`-- README.md
+```
 
 ---
 
-##  Fuente de datos
+## Data Source
 
-- **Encuesta Mundial de Salud Escolar (EMSE 2018)**  
-  Fuente: Ministerio de Salud de la Nación (Argentina)  
-  Portal de Datos Abiertos:  
-  [https://datos.gob.ar/dataset/salud-base-datos-3deg-encuesta-mundial-salud-escolar-emse-con-resultados-nacionales-argentina](https://datos.gob.ar/dataset/salud-base-datos-3deg-encuesta-mundial-salud-escolar-emse-con-resultados-nacionales-argentina)
+The analysis uses the **Global School-based Student Health Survey (EMSE 2018)**.
 
-> El archivo CSV original supera los 100 MB, por lo que no se incluye directamente en el repositorio.  
-> Puede descargarse desde el enlace oficial o cargarse mediante pandas en Python:
->
-> ```python
-> import pandas as pd
-> url = "https://datos.salud.gob.ar/.../download/emse_datosabiertos.csv"
-> df = pd.read_csv(url)
-> df.head()
-> ```
+Source: Ministry of Health of Argentina  
+Open Data Portal:
+
+<https://datos.gob.ar/dataset/salud-base-datos-3deg-encuesta-mundial-salud-escolar-emse-con-resultados-nacionales-argentina>
+
+The original CSV file is larger than 100 MB and is therefore not included directly in
+the repository. It can be downloaded from the official source.
 
 ---
 
-##  Contenidos de la exposición
+## Presentation Contents
 
-- Descripción general de la base EMSE 2018  
-- Distribución por sexo y edad  
-- Hábitos saludables (actividad física y alimentación)  
-- Conductas de riesgo (tabaco y alcohol)  
-- Propuestas de investigación y modelado  
-- Proyección hacia la **Aplicación Final**:
-  - Uso de modelos de clasificación supervisada (Logit / KNN)
-  - Análisis de relaciones entre factores familiares, hábitos y conductas de riesgo
+- General description of the EMSE 2018 dataset.
+- Distribution by sex and age.
+- Healthy habits, including physical activity and nutrition.
+- Risk behaviors, including tobacco and alcohol consumption.
+- Research and modeling proposals for the final course application.
+- Possible use of supervised classification models such as Logit and KNN.
 
 ---
 
-##  Objetivo académico
+## Academic Objective
 
-El trabajo busca integrar las competencias del curso:
-1. Limpieza y estructuración de datos.  
-2. Construcción de visualizaciones reproducibles.  
-3. Generación de hipótesis y diseño de modelos predictivos simples.  
-4. Aplicación práctica en una base real de microdatos nacionales.
+The presentation integrates core course skills:
 
----
-
-##  Herramientas utilizadas
-
-- **Python**: pandas, matplotlib, seaborn  
-- **LaTeX Beamer**: presentación académica  
-- **GitHub**: control de versiones y documentación del grupo
+1. Data cleaning and structuring.
+2. Reproducible visualization.
+3. Research hypothesis generation.
+4. Initial predictive modeling design using real national microdata.
 
 ---
 
-##  Licencia
+## Tools
 
-El material se comparte con fines educativos bajo licencia **CC BY-NC-SA 4.0**  
-(Los datos pertenecen al Ministerio de Salud de la Nación – Argentina).
+- Python: `pandas`, `matplotlib`, `seaborn`
+- LaTeX Beamer for academic presentation
+- GitHub for version control and group documentation
 
 ---
 
- *Repositorio creado como parte del curso Taller de Programación – Maestría en Economía Aplicada (UBA, 2025).*
+## License
 
+This material is shared for educational purposes under a CC BY-NC-SA 4.0 license. The
+data belong to the Ministry of Health of Argentina.

@@ -1,51 +1,57 @@
-# 📊 Taller de Programación – Trabajo Práctico N°2  
-**Universidad de Buenos Aires – Facultad de Ciencias Económicas (FCE-UBA)**  
-**Maestría en Economía Aplicada**  
-**Año:** 2025  
-**Tema:** Histogramas, Kernels y Métodos No Supervisados con la EPH  
+# TP2 - Histograms, Kernel Density, and Unsupervised Methods
+
+This folder contains the materials for Practical Assignment 2 of the Programming
+Workshop course at the University of Buenos Aires.
 
 ---
 
-## 🧩 Descripción General
+## Overview
 
-Este segundo trabajo práctico tiene como propósito **continuar el análisis de la Encuesta Permanente de Hogares (EPH)**, extendiendo la base limpia del TP1 para incluir nuevos indicadores y aplicar **técnicas exploratorias y no supervisadas**.  
+The assignment continues the analysis of the Permanent Household Survey (EPH), extending
+the cleaned dataset from TP1 with new indicators and exploratory methods.
 
-Los objetivos principales son:
-- Consolidar una base homogénea para los trimestres 2005T1 y 2025T1.  
-- Crear variables derivadas (edad², años de educación, horas trabajadas, etc.).  
-- Analizar distribuciones mediante histogramas y densidades kernel.  
-- Aplicar **PCA** (Análisis de Componentes Principales) y **clustering** (k-means y jerárquico).  
+The project applies distributional analysis and unsupervised learning techniques to
+compare selected EPH samples.
 
 ---
 
-## 📁 Estructura del repositorio
+## Main Objectives
 
+- Consolidate a homogeneous dataset for 2005Q1 and 2025Q1.
+- Create derived variables such as squared age, years of education, and working hours.
+- Analyze distributions using histograms and kernel density estimates.
+- Apply principal component analysis.
+- Apply clustering methods, including k-means and hierarchical clustering.
+
+---
+
+## Repository Structure
+
+```text
 TP2/
-├── Datos/ # Bases de datos limpias y auxiliares
-│ ├── eph_2005T1_limpia.csv
-│ └── eph_2025T1_limpia.csv
-│
-├── Docs/ # Documentación e informe final
-│ └── Program_TP2_GrupoX.pdf
-│
-├── Figuras/ # Salidas gráficas generadas
-│ ├── hist_edades.png
-│ ├── kernel_ingresos.png
-│ ├── pca_scores.png
-│ ├── elbow_kmeans.png
-│ └── dendrograma.png
-│
-├── Scripts/ # Código fuente y notebooks
-│ └── Program_TP2_GrupoX.ipynb
-│
-└── README.md # Descripción del trabajo (este archivo)
-
+|
+|-- Datos/      # Cleaned and auxiliary datasets
+|-- Docs/       # Documentation and final report
+|-- Figuras/    # Generated figures
+|-- Scripts/    # Source code and notebooks
+`-- README.md
+```
 
 ---
 
-## ⚙️ Dependencias y entorno
+## Environment
 
-Este proyecto fue desarrollado en **Python 3.10+** y requiere las siguientes librerías:
+The project was developed in Python 3.10 or later.
+
+Install the required dependencies with:
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn kmodes
+```
+
+---
+
+## Academic Context
+
+Practical assignment developed for the Programming Workshop course, Master's Program in
+Applied Economics, University of Buenos Aires.

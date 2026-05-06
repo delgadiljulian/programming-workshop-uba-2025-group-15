@@ -1,44 +1,48 @@
-# 🧾 TP1 – Un primer encuentro con la EPH  
+# TP1 - First Exploration of the EPH
 
-Este directorio contiene todos los archivos correspondientes al **Trabajo Práctico N°1** de la materia *Taller de Programación (UBA, 2025)*.
-
----
-
-## 🎯 Objetivo general  
-Familiarizarse con la base de la **Encuesta Permanente de Hogares (EPH)**, realizar limpieza de datos, análisis descriptivo y medir la pobreza comparando los años **2005 y 2025**.
+This folder contains the materials for Practical Assignment 1 of the Programming
+Workshop course at the University of Buenos Aires.
 
 ---
 
-## 📁 Contenido
-- `Program_TP1_GrupoX.ipynb` → Notebook principal con el código y los gráficos.  
-- `Program_TP1_GrupoX.pdf` → Informe final en PDF (máximo 5 páginas).  
-- Carpeta `datos/` → Contiene las bases de microdatos EPH (2005 y 2025) y la tabla de equivalencias de adultos.
+## General Objective
 
-- 🗂️ La base completa `usu_individual_T105.dta` (más de 25 MB) 
-debe descargarse desde el sitio oficial del INDEC:  
-👉 [EPH Microdatos 2005 – Primer trimestre](https://www.indec.gob.ar/indec/web/Institucional-Indec-BasesDeDatos)
-
+The assignment introduces the **Permanent Household Survey (EPH)**. It focuses on data
+cleaning, descriptive analysis, and poverty measurement by comparing the years **2005**
+and **2025**.
 
 ---
 
-## 🧩 Etapas de trabajo
-1. **Descarga y unificación** de las bases EPH 2005 y 2025.  
-2. **Limpieza de datos:** tratamiento de valores faltantes, formatos y outliers.  
-3. **Análisis exploratorio:** gráficos descriptivos, correlaciones y composición por sexo.  
-4. **Medición de pobreza:** cálculo de ingresos familiares necesarios y clasificación de hogares pobres / no pobres.  
+## Contents
+
+- `Program_TP1_Grupo15.ipynb`: main notebook with code and figures.
+- `Program_TP1_Grupo15.pdf`: final report in PDF format.
+- `datos/`: EPH microdata and supporting tables.
+
+The full `usu_individual_T105.dta` file is larger than 25 MB and should be downloaded
+from the official INDEC website:
+
+<https://www.indec.gob.ar/indec/web/Institucional-Indec-BasesDeDatos>
 
 ---
 
-## 🧮 Variables mínimas requeridas  
-CH04, CH06, CH07, CH08, NIVEL_ED, ESTADO, CAT_INAC, IPCF, ITF, REGION, CODUSU, NRO_HOGAR.  
+## Workflow
+
+1. Download and merge EPH datasets for 2005 and 2025.
+2. Clean missing values, formats, and outliers.
+3. Perform exploratory analysis using descriptive plots and summary statistics.
+4. Measure poverty using household income requirements and household classification.
 
 ---
 
-## 🌎 Región seleccionada  
-> *(Indicar aquí la región del país con la que se trabajará, según la variable `REGION` del INDEC.)*
+## Minimum Required Variables
+
+`CH04`, `CH06`, `CH07`, `CH08`, `NIVEL_ED`, `ESTADO`, `CAT_INAC`, `IPCF`, `ITF`,
+`REGION`, `CODUSU`, `NRO_HOGAR`.
 
 ---
 
-## 📅 Información de entrega  
-- **Fecha de entrega:** 11 de septiembre de 2025, 12:00 hs.  
-- **Commit final obligatorio:**  
+## Academic Context
+
+Practical assignment developed for the Programming Workshop course, Master's Program in
+Applied Economics, University of Buenos Aires.

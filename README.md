@@ -28,26 +28,26 @@ corresponding practical assignment.
 ```text
 taller-de-programacion-uba-2025-grupo15/
 |
-├── TP1/
-|   ├── Program_TP1_Grupo15.ipynb
-|   ├── Program_TP1_Grupo15.pdf
-|   ├── data/
-|   └── README.md
+|-- TP1/
+|   |-- Program_TP1_Grupo15.ipynb
+|   |-- Program_TP1_Grupo15.pdf
+|   |-- data/
+|   `-- README.md
 |
-├── TP2/
-|   ├── Program_TP2_Grupo15.ipynb
-|   ├── Program_TP2_Grupo15.pdf
-|   └── data/
+|-- TP2/
+|   |-- Program_TP2_Grupo15.ipynb
+|   |-- Program_TP2_Grupo15.pdf
+|   `-- data/
 |
-├── TP3/
-|   ├── Program_TP3_Grupo15.ipynb
-|   ├── Program_TP3_Grupo15.pdf
-|   └── data/
+|-- TP3/
+|   |-- Program_TP3_Grupo15.ipynb
+|   |-- Program_TP3_Grupo15.pdf
+|   `-- data/
 |
-└── TP4/
-    ├── Program_TP4_Grupo15.ipynb
-    ├── Program_TP4_Grupo15.pdf
-    └── data/
+`-- TP4/
+    |-- Program_TP4_Grupo15.ipynb
+    |-- Program_TP4_Grupo15.pdf
+    `-- data/
 ```
 
 ---

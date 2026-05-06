@@ -1,148 +1,121 @@
-# 📘 Predicción de Riesgo Crítico en Estudiantes mediante Modelos de Machine Learning
-Exposición #2 – Taller de Programación (UBA)
-# 📌 Descripción del Proyecto
+# Presentation 2 - Critical Risk Prediction in Students
 
-Este repositorio contiene el código, resultados y visualizaciones correspondientes a la Exposición #2 del Taller de Programación (UBA).
-El objetivo principal del trabajo es identificar estudiantes en riesgo crítico a partir de datos de la Encuesta Mundial de Salud Escolar (EMSE), utilizando técnicas de Machine Learning y priorizando la detección temprana mediante la reducción de falsos negativos (FN).
+Presentation 2 for the Programming Workshop course at the University of Buenos Aires.
 
-# 🎯 Objetivo del Análisis
+---
 
-Entrenar distintos modelos supervisados de clasificación.
+## Project Overview
 
-Compararlos en términos de sensibilidad (Recall), precisión y errores de clasificación.
+This folder contains code, results, and visualizations for a machine learning analysis
+based on the Global School-based Student Health Survey (EMSE).
 
-Seleccionar el modelo con menor cantidad de falsos negativos, dada su importancia social y epidemiológica.
+The main goal is to identify students at critical risk using supervised classification
+models, prioritizing early detection by reducing false negatives.
 
-Interpretar los factores asociados al riesgo mediante Permutation Importance.
+---
 
-Visualizar resultados clave mediante matrices de confusión y gráficos de importancia.
+## Analysis Objective
 
-# 📊 Dataset
+The project evaluates several classification models and compares them using:
 
-Se utiliza un subconjunto preprocesado de la Encuesta Mundial de Salud Escolar (EMSE) con variables:
+- Sensitivity or recall.
+- Precision.
+- Classification errors.
+- Confusion matrices.
+- Permutation importance.
 
-Demográficas (edad, sexo, escolaridad)
+The preferred model is the one that minimizes false negatives, given the social and
+epidemiological relevance of failing to detect students at risk.
 
-Conductuales (actividad física, hábitos alimentarios)
+---
 
-Escolares y familiares
+## Dataset
 
-Variables trivialmente asociadas al riesgo (alcohol, tabaco, lesiones) fueron excluidas para evitar data leakage.
+The analysis uses a preprocessed subset of the EMSE survey with demographic, behavioral,
+school-related, and family-related variables.
 
-# 🤖 Modelos Evaluados
+Variables directly linked to the target outcome, such as alcohol, tobacco, and injuries,
+were excluded to avoid data leakage.
 
-Se entrenaron y evaluaron tres modelos principales:
+---
 
-Naive Bayes (CategoricalNB)
+## Models Evaluated
 
-Árbol de Decisión Podado
+The project compares three main models:
 
-Regresión Logística (Logit)
+- Naive Bayes (`CategoricalNB`)
+- Pruned decision tree
+- Logistic regression
 
-Cada modelo fue evaluado con:
+Each model is evaluated using:
 
-Accuracy
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion matrix
 
-Precision
+---
 
-Recall (Sensibilidad)
+## Selected Model
 
-F1-Score
+Naive Bayes was selected because it achieved the highest recall and the lowest number of
+false negatives among the models evaluated.
 
-Matriz de confusión (TP, FP, TN, FN)
+The model aligns with the central objective of maximizing the detection of students at
+critical risk.
 
-# 🏆 Modelo Ganador: Naive Bayes
+---
 
-Naive Bayes fue seleccionado porque:
+## Visual Outputs
 
-Obtuvo el mayor Recall (0.604)
+The project includes:
 
-Presentó la menor cantidad de Falsos Negativos (FN = 3009)
+- Labeled confusion matrices.
+- Top feature importance plots derived from permutation importance.
+- Visual summaries of the most relevant predictors.
 
-Cumple el objetivo central del proyecto: maximizar la detección de estudiantes en riesgo crítico
+Relevant predictors include sex, physical inactivity, age, school grade, and nutritional
+habits.
 
-Resumen de métricas del modelo ganador
-Métrica	Valor
-Accuracy	~0.615
-Precision	~0.562
-Recall (Sensibilidad)	0.604
-F1-Score	~0.583
-Falsos Negativos (FN)	3009
-# 🔥 Resultados Visuales Incluidos
-✔ Matriz de Confusión rotulada (TN, FP, FN, TP)
+---
 
-Facilita la interpretación del impacto de los falsos negativos.
+## Repository Structure
 
-✔ Gráfico Top 10 de Variables Importantes
+```text
+Exposicion_2/
+|
+|-- Datos/
+|-- Docs/
+|-- Figuras/
+|-- Scripts/
+`-- README.md
+```
 
-Derivado de Permutation Importance.
+---
 
-Las variables más relevantes incluyen:
+## Requirements
 
-Sexo (Femenino/Masculino)
+Install the required Python dependencies with:
 
-Actividad física (“Nunca”)
-
-Edad y curso escolar
-
-Hábitos alimentarios
-
-# 🧠 Interpretación de Importancia de Variables
-
-El modelo identifica como predictores relevantes:
-
-Género: patrones diferenciales entre grupos.
-
-Inactividad física: indicador fuerte de vulnerabilidad.
-
-Edad y escolaridad: etapas críticas de la adolescencia.
-
-Hábitos alimentarios: reflejan organización y entorno familiar.
-
-Estas variables funcionan como indicadores estructurales del contexto psicosocial del estudiante.
-
-📁 Estructura del Repositorio
-📁 Datos/
-📁 Docs/
-📁 Figuras/
-📁 Scripts/
-README.md
-
-# 🧪 Requisitos
-
-Instalación de dependencias:
-
+```bash
 pip install numpy pandas scikit-learn seaborn matplotlib
+```
 
-# 🚀 Cómo Ejecutar el Proyecto
+---
 
-Clonar el repositorio
+## How to Run
 
-Abrir los notebooks en Jupyter o Google Colab
+1. Open the notebooks in Jupyter Notebook or Google Colab.
+2. Run the cells in order.
+3. Review preprocessing, model training, comparison, model selection, and visual outputs.
 
-Ejecutar las celdas en orden:
+---
 
-Preprocesamiento
+## Authors
 
-Entrenamiento de modelos
+- Christian Campos
+- Julián Delgadillo Marín
+- Alejandro Alcocer
 
-Comparación
-
-Selección del modelo ganador
-
-Visualizaciones
-
-# 📘 Conclusiones
-
-Naive Bayes fue el modelo más adecuado para el objetivo de minimizar falsos negativos.
-
-Su simplicidad no impide un buen desempeño en la detección de riesgo.
-
-Los resultados permiten identificar patrones destacados para futuros análisis y políticas educativas/sanitarias.
-
-# 👥 Autores
-
-Christian Campos
-Julián Delgadillo Marín
-Alejandro Alcocer
-Año: 2025 — Cuatrimestre IV
+Year: 2025

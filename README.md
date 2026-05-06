@@ -1,58 +1,78 @@
-# Taller de Programación – UBA 2025  
-### Grupo 15 — Facultad de Ciencias Económicas (Universidad de Buenos Aires)
+# Programming Workshop - UBA 2025
 
-Repositorio oficial del **Grupo X** para la asignatura **Taller de Programación (UBA, 2025)**.  
-Contiene los **trabajos prácticos (TP1, TP2, TP3, …)** desarrollados en **Python** y **Jupyter Notebook**, junto con sus **informes en PDF** y **datasets asociados**.
+### Group 15 - Faculty of Economic Sciences, University of Buenos Aires
 
----
+Official repository for **Group 15** in the **Programming Workshop** course at the
+University of Buenos Aires.
 
-## 👥 Integrantes
-| Nombre | Rol principal | Contacto |
-|---------|----------------|-----------|
-| Alejandro Alcocer | Programador 1 | aj9alito@gmail.com |
-| Christian Campos | Programador 2 | chr_campos@yahoo.com.ar |
-| Julián Delgadillo Marín | Programador 3 | jadelgadillomarin@gmail.com |
-
-> Cada commit en el repositorio debe incluir una descripción clara de la tarea realizada y el TP correspondiente.
+The repository contains practical assignments developed in **Python** and
+**Jupyter Notebook**, along with reports, datasets, and supporting materials.
 
 ---
 
-## 🗂️ Estructura del repositorio
+## Team Members
 
-Taller_de_Programacion_UBA_2025_GrupoX/
-│
+| Name | Main Role | Contact |
+| --- | --- | --- |
+| Alejandro Alcocer | Programmer 1 | aj9alito@gmail.com |
+| Christian Campos | Programmer 2 | chr_campos@yahoo.com.ar |
+| Julián Delgadillo Marín | Programmer 3 | jadelgadillomarin@gmail.com |
+
+Each commit should include a clear description of the task completed and the
+corresponding practical assignment.
+
+---
+
+## Repository Structure
+
+```text
+taller-de-programacion-uba-2025-grupo15/
+|
 ├── TP1/
-│ ├── Program_TP1_GrupoX.ipynb # Notebook del primer trabajo práctico
-│ ├── Program_TP1_GrupoX.pdf # Informe en PDF (máx. 5 páginas)
-│ ├── datos/ # Bases de datos utilizadas
-│ └── README.md # Descripción específica del TP1
-│
+|   ├── Program_TP1_Grupo15.ipynb
+|   ├── Program_TP1_Grupo15.pdf
+|   ├── data/
+|   └── README.md
+|
 ├── TP2/
-│ ├── Program_TP2_GrupoX.ipynb
-│ ├── Program_TP2_GrupoX.pdf
-│ └── datos/
-│
-└── TP3/
-├── Program_TP3_GrupoX.ipynb
-├── Program_TP3_GrupoX.pdf
-└── datos/
-│
+|   ├── Program_TP2_Grupo15.ipynb
+|   ├── Program_TP2_Grupo15.pdf
+|   └── data/
+|
+├── TP3/
+|   ├── Program_TP3_Grupo15.ipynb
+|   ├── Program_TP3_Grupo15.pdf
+|   └── data/
+|
 └── TP4/
-├── ...
-├── ...
-└── ...
+    ├── Program_TP4_Grupo15.ipynb
+    ├── Program_TP4_Grupo15.pdf
+    └── data/
+```
 
 ---
 
-## 🧩 Entorno de trabajo
+## Working Environment
 
-**Lenguaje principal:** Python 3.x  
-**Entorno:** Jupyter Notebook  
+**Main language:** Python 3.x  
+**Main environment:** Jupyter Notebook
 
-**Librerías principales:**
-- `pandas` — manipulación y limpieza de datos  
-- `numpy` — operaciones numéricas  
-- `matplotlib`, `seaborn` — visualización  
-- `scipy`, `statsmodels` — análisis estadístico
+Main libraries:
+
+- `pandas` for data manipulation and cleaning
+- `numpy` for numerical operations
+- `matplotlib` and `seaborn` for visualization
+- `scipy` and `statsmodels` for statistical analysis
 
 ---
+
+## Academic Context
+
+Coursework repository developed for the Programming Workshop course in the Faculty of
+Economic Sciences at the University of Buenos Aires.
+
+---
+
+## License
+
+This repository is intended for academic coursework and collaborative learning.

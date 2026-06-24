@@ -15,12 +15,12 @@ supporting scripts.
 ## Suggested Structure
 
 ```text
-TP4/
+tp4/
 |
-|-- Datos/
-|-- Docs/
-|-- Figuras/
-|-- Scripts/
+|-- data/
+|-- docs/
+|-- figures/
+|-- scripts/
 `-- README.md
 ```
 

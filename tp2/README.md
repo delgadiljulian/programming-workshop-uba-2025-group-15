@@ -28,12 +28,12 @@ compare selected EPH samples.
 ## Repository Structure
 
 ```text
-TP2/
+tp2/
 |
-|-- Datos/      # Cleaned and auxiliary datasets
-|-- Docs/       # Documentation and final report
-|-- Figuras/    # Generated figures
-|-- Scripts/    # Source code and notebooks
+|-- data/      # Cleaned and auxiliary datasets
+|-- docs/       # Documentation and final report
+|-- figures/    # Generated figures
+|-- scripts/    # Source code and notebooks
 `-- README.md
 ```
 

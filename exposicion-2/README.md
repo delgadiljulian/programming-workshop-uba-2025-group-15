@@ -83,12 +83,12 @@ habits.
 ## Repository Structure
 
 ```text
-Exposicion_2/
+exposicion-2/
 |
-|-- Datos/
-|-- Docs/
-|-- Figuras/
-|-- Scripts/
+|-- data/
+|-- docs/
+|-- figures/
+|-- scripts/
 `-- README.md
 ```
 

@@ -25,9 +25,9 @@ application.
 ## Folder Structure
 
 ```text
-Exposicion_1/
+exposicion-1/
 |
-|-- Datos/          # Dataset source and download notes
+|-- data/          # Dataset source and download notes
 |-- Graficos/       # PNG figures used in the presentation
 |-- Presentacion/   # Beamer source and PDF files
 |-- Codigo/         # Auxiliary cleaning and visualization scripts

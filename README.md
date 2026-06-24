@@ -1,12 +1,13 @@
-# Programming Workshop - UBA 2025
+﻿# Programming Workshop - UBA 2025
 
 ### Group 15 - Faculty of Economic Sciences, University of Buenos Aires
 
 Official repository for **Group 15** in the **Programming Workshop** course at the
 University of Buenos Aires.
 
-The repository contains practical assignments developed in **Python** and
-**Jupyter Notebook**, along with reports, datasets, and supporting materials.
+The repository contains practical assignments and presentations developed in **Python**
+and **Jupyter Notebook**, along with reports, datasets, figures, and supporting
+materials.
 
 ---
 
@@ -16,10 +17,10 @@ The repository contains practical assignments developed in **Python** and
 | --- | --- | --- |
 | Alejandro Alcocer | Programmer 1 | aj9alito@gmail.com |
 | Christian Campos | Programmer 2 | chr_campos@yahoo.com.ar |
-| Julián Delgadillo Marín | Programmer 3 | jadelgadillomarin@gmail.com |
+| Julian Delgadillo Marin | Programmer 3 | jadelgadillomarin@gmail.com |
 
 Each commit should include a clear description of the task completed and the
-corresponding practical assignment.
+corresponding assignment or presentation.
 
 ---
 
@@ -28,26 +29,48 @@ corresponding practical assignment.
 ```text
 taller-de-programacion-uba-2025-grupo15/
 |
-|-- tp1/
-|   |-- Program_TP1_Grupo15.ipynb
-|   |-- Program_TP1_Grupo15.pdf
+|-- assignment-1/
 |   |-- data/
+|   |-- docs/
+|   |   |-- materials/
+|   |   `-- report/
+|   |-- figures/
+|   |-- scripts/
+|   |   `-- assignment-1-group-15.ipynb
 |   `-- README.md
 |
-|-- tp2/
-|   |-- Program_TP2_Grupo15.ipynb
-|   |-- Program_TP2_Grupo15.pdf
-|   `-- data/
+|-- assignment-2/
+|   |-- data/
+|   |-- docs/
+|   |   |-- materials/
+|   |   `-- report/
+|   |-- figures/
+|   |-- scripts/
+|   |   `-- assignment-2-group-15.ipynb
+|   `-- README.md
 |
-|-- tp3/
-|   |-- Program_TP3_Grupo15.ipynb
-|   |-- Program_TP3_Grupo15.pdf
-|   `-- data/
+|-- assignment-3/
+|   |-- data/
+|   |-- docs/
+|   |   |-- materials/
+|   |   `-- report/
+|   |-- figures/
+|   |-- scripts/
+|   |   `-- assignment-3-group-15.ipynb
+|   `-- README.md
 |
-`-- tp4/
-    |-- Program_TP4_Grupo15.ipynb
-    |-- Program_TP4_Grupo15.pdf
-    `-- data/
+|-- assignment-4/
+|   |-- data/
+|   |-- docs/
+|   |   |-- materials/
+|   |   `-- report/
+|   |-- figures/
+|   |-- scripts/
+|   |   `-- assignment-4-group-15.ipynb
+|   `-- README.md
+|
+|-- presentation-1/
+`-- presentation-2/
 ```
 
 ---
